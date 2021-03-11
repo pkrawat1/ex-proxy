@@ -1,0 +1,17 @@
+{
+  "name": "ex-proxy",
+  "version": "0.0.1",
+  "description": "Proxy server that can be extended",
+  "main": "index.js",
+  "repository": "https://github.com/pkrawat1/ex-proxy",
+  "author": "Pankaj Rawat",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
